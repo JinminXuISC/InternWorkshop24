@@ -7,7 +7,7 @@ This repo is for 2024 InterSystems Interns to go through "git source control ses
 1) Clone this Repository to your local machine.
 2) Create your Github branch
 3) Connect to your local IRIS instance.
-4) Import ```pop.Patient.<your name>.cls ``` to IRIS.
+4) Import ```PopPatient.<your name>.cls ``` to IRIS.
 5) Check Out.
 6) Check In.
 7) Pull & Sync.
