@@ -11,5 +11,5 @@ This repo is for 2024 InterSystems Interns to go through "git source control ses
 5) Check Out.
 6) Check In.
 7) Pull & Sync.
-8) Create a new classfile (.cls) under ```src/pop/Sign```.
+8) Create a new classfile (.cls) in your IRIS instance ```Playground.XXX.cls```.
 9) Check in & Pull the latest update. 
