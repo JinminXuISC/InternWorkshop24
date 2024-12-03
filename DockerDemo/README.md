@@ -37,7 +37,7 @@ or open the folder in VSCode and do the following:
 This template creates /crud REST web-application on IRIS which implements 4 types of communication: GET, POST, PUT and DELETE aka CRUD operations.
 These interface works with a sample persistent class dc.Sample.Person.
 
-Open http://localhost:52773/swagger-ui/index.html to test the REST API
+Open http://localhost:52779/swagger-ui/index.html to test the REST API
 
 # Testing GET requests
 
