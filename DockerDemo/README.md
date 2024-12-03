@@ -1,9 +1,5 @@
 ## intersystems-iris-rest-api-template
 
- [![Gitter](https://img.shields.io/badge/Available%20on-Intersystems%20Open%20Exchange-00b2a9.svg)](https://openexchange.intersystems.com/package/iris-rest-api-template)
- [![Quality Gate Status](https://community.objectscriptquality.com/api/project_badges/measure?project=intersystems_iris_community%2Firis-rest-api-template&metric=alert_status)](https://community.objectscriptquality.com/dashboard?id=intersystems_iris_community%2Firis-rest-api-template)
- <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/intersystems-community/iris-rest-api-template">
-
 This is a template of a REST API application built with ObjectScript in InterSystems IRIS.
 It also has OPEN API spec, 
 can be developed with Docker and VSCode,
@@ -55,20 +51,20 @@ This will create 10 random records in dc.Sample.Person class.
 
 You can get swagger Open API 2.0 documentation on:
 ```
-localhost:52773/crud/_spec
+localhost:52779/crud/_spec
 ```
 
 This REST API exposes two GET requests: all the data and one record.
 To get all the data in JSON call:
 
 ```
-localhost:52773/crud/persons/all
+localhost:52779/crud/persons/all
 ```
 
 To request the data for a particular record provide the id in GET request like 'localhost:52773/crud/persons/id' . E.g.:
 
 ```
-localhost:52773/crud/persons/1
+localhost:52779/crud/persons/1
 ```
 
 This will return JSON data for the person with ID=1, something like that:
@@ -87,7 +83,7 @@ Create a POST request e.g. in Postman with raw data in JSON. e.g.
 
 Adjust the authorisation if needed - it is basic for container with default login and password for IRIR Community edition container
 
-and send the POST request to localhost:52773/crud/persons/
+and send the POST request to localhost:52779/crud/persons/
 
 This will create a record in dc.Sample.Person class of IRIS.
 
@@ -102,7 +98,7 @@ E.g. we want to change the record with id=5. Prepare in Postman the JSON in raw 
 
 and send the put request to:
 ```
-localhost:52773/crud/persons/5
+localhost:52779/crud/persons/5
 ```
 
 # Testing DELETE request
@@ -110,7 +106,7 @@ localhost:52773/crud/persons/5
 For delete request this REST API expects only the id of the record to delete. E.g. if the id=5 the following DELETE call will delete the record:
 
 ```
-localhost:52773/crud/persons/5
+localhost:52779/crud/persons/5
 ```
 
 ## How to start coding
