@@ -24,4 +24,37 @@ ClassMethod GenerateRandomMobileNumber() As %Integer
             Quit randomMobileNumber
 }
 
+Storage Default
+{
+<Data name="testDefaultData">
+<Value name="1">
+<Value>%%CLASSNAME</Value>
+</Value>
+<Value name="2">
+<Value>Name</Value>
+</Value>
+<Value name="3">
+<Value>TestProperty</Value>
+</Value>
+<Value name="4">
+<Value>TestProperty2</Value>
+</Value>
+<Value name="5">
+<Value>Age</Value>
+</Value>
+<Value name="6">
+<Value>PhoneNum</Value>
+</Value>
+<Value name="7">
+<Value>PostCode</Value>
+</Value>
+</Data>
+<DataLocation>^PopPatient.testD</DataLocation>
+<DefaultData>testDefaultData</DefaultData>
+<IdLocation>^PopPatient.testD</IdLocation>
+<IndexLocation>^PopPatient.testI</IndexLocation>
+<StreamLocation>^PopPatient.testS</StreamLocation>
+<Type>%Storage.Persistent</Type>
+}
+
 }
