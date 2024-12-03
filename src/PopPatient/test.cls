@@ -3,6 +3,8 @@ Class PopPatient.test Extends (%Persistent, %Populate) [ DdlAllowed ]
 
 Property Name As %String;
 
+Property TestProperty As %String;
+
 Property Age As %Integer(MAXVAL = 90, MINVAL = 1);
 
 Property PhoneNum As %Integer(POPSPEC = ".GenerateRandomMobileNumber()");
