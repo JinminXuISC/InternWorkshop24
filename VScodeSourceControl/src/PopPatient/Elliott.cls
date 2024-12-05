@@ -1,11 +1,19 @@
 Class PopPatient.Elliott Extends (%Persistent, %Populate) [ DdlAllowed ]
 {
 
+// name of the generated patient
+
 Property Name As %String;
+
+// age of the generated patient
 
 Property Age As %Integer(MAXVAL = 90, MINVAL = 1);
 
+// phone number of the generated patient
+
 Property PhoneNum As %Integer(POPSPEC = ".GenerateRandomMobileNumber()");
+
+// post code of the generated patient
 
 Property PostCode As %Integer;
 
