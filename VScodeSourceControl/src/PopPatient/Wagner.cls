@@ -9,6 +9,8 @@ Property PhoneNum As %Integer(POPSPEC = ".GenerateRandomMobileNumber()");
 
 Property PostCode As %Integer;
 
+Property Gender As %String;
+
 ClassMethod GenerateRandomMobileNumber() As %Integer
 {
             //Set countryCode = "+61"  
@@ -37,6 +39,9 @@ Storage Default
 </Value>
 <Value name="5">
 <Value>PostCode</Value>
+</Value>
+<Value name="6">
+<Value>Gender</Value>
 </Value>
 </Data>
 <DataLocation>^PopPatient.WagnerD</DataLocation>
