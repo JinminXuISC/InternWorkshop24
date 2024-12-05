@@ -11,7 +11,8 @@ Property PostCode As %Integer;
 
 ClassMethod GenerateRandomMobileNumber() As %Integer
 {
-            //Set countryCode = "+61"  
+            //Set countryCode = "+61"
+            // Above country is AU  
             Set areaCode = "04"
             Set firstPart = $RANDOM(900) + 100
             Set secondPart = $RANDOM(90000) + 10000
